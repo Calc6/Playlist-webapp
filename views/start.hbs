@@ -1,0 +1,44 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h2>Welcome to the Playlist App!</h2>
+      <p>
+        This app will allow users to create and maintain a collection of playlists.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like it? <i class="thumbs up icon"></i>
+        </button>
+        <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+        </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+          Over the coming months, we will add CRUD (Create, Read, Update, and Delete) functionality to this app. Users will also be able to create an account, log in, and upload images to the app.
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+  </div>
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+        <img class="ui small rounded image" src="https://cdn.glitch.global/446ab014-42c3-4e38-b0c0-0f787e55e0f5/Whatever_People_Say_I_Am%2C_That's_What_I'm_Not_(2006_Arctic_Monkeys_album).jpg?v=1674573025113">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small rounded image" src="https://cdn.glitch.global/446ab014-42c3-4e38-b0c0-0f787e55e0f5/67203.jpg?v=1674573037624">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small rounded image" src="https://cdn.glitch.global/446ab014-42c3-4e38-b0c0-0f787e55e0f5/Kendrick-Lamar-Good-Kid-Maad-City-1.webp?v=1674573011824">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small rounded image" src="https://cdn.glitch.global/446ab014-42c3-4e38-b0c0-0f787e55e0f5/GretaVanFleet_AnthemOfThePeacefulArmy.jpg?v=1674573032200">
+      </div>
+    </div>
+  </div>
+</section>
